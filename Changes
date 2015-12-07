@@ -1,5 +1,13 @@
 Revision history for App-lcpan-CmdBundle-dzil
 
+0.02    2015-12-07 (PERLANCAR)
+
+	- No functional changes.
+
+	- [bugfix][dist] Forgot to set a high-enough version of
+	  prerequisite App::lcpan.
+
+
 0.01    2015-12-07 (PERLANCAR)
 
         - First version.
