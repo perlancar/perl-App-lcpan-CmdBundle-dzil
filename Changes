@@ -1,5 +1,11 @@
 Revision history for App-lcpan-CmdBundle-dzil
 
+0.04    2016-01-18 (PERLANCAR)
+
+	- [Bugfix] Forgot to adjust to lcpan 0.62's modules() (namespace ->
+	  namespaces).
+
+
 0.03    2016-01-18 (PERLANCAR)
 
 	- Adjust to lcpan 0.64.
