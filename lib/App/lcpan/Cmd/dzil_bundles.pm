@@ -23,15 +23,8 @@ $SPEC{handle_cmd} = {
         %App::lcpan::sort_modules_args,
     },
 };
-
 sub handle_cmd {
     my %args = @_;
-
-    App::lcpan::_set_args_default(\%args);
-    #my $cpan = $args{cpan};
-    #my $index_name = $args{index_name};
-
-    #my $dbh = App::lcpan::_connect_db('ro', $cpan, $index_name);
 
     my $res = App::lcpan::modules(%args, namespace=>'Dist::Zilla::PluginBundle');
 
