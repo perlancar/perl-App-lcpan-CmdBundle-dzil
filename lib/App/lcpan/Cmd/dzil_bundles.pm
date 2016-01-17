@@ -26,7 +26,7 @@ $SPEC{handle_cmd} = {
 sub handle_cmd {
     my %args = @_;
 
-    my $res = App::lcpan::modules(%args, namespace=>'Dist::Zilla::PluginBundle');
+    my $res = App::lcpan::modules(%args, namespaces=>['Dist::Zilla::PluginBundle']);
 
     for (@{$res->[2]}) {
         if ($args{detail}) {
