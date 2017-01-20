@@ -1,3 +1,10 @@
+0.05    2017-01-20 (PERLANCAR)
+
+	- No functional changes.
+
+	- [dist] Use Pod::Weaver plugin PWP:App::lcpan.
+
+
 0.04    2016-01-18 (PERLANCAR)
 
 	- [Bugfix] Forgot to adjust to lcpan 0.62's modules() (namespace ->
