@@ -1,3 +1,8 @@
+0.060   2019-11-20  Released-By: PERLANCAR; Urgency: medium
+
+	- Add subcommands: dzil_{bundle,plugin,role}.
+
+
 0.05    2017-01-20  Released-By: PERLANCAR
 
 	- No functional changes.
