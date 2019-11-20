@@ -44,7 +44,7 @@ sub handle_cmd {
     my %args = @_;
 
     my $res = App::lcpan::modules(
-        hash_subset_without(\%args, ['module']),
+        hash_subset_without(\%args, ['dzil_bundle']),
         query => ["Dist::Zilla::PluginBundle::$args{dzil_bundle}"],
         query_type => 'exact-name',
         detail => 1,
